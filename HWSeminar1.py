@@ -10,14 +10,14 @@ import math
 
 #РЕШЕНИЕ
 
-num = int(input('Ведите цифру дня недели: '))
+# num = int(input('Ведите цифру дня недели: '))
 
-if (num == 6 or num == 7):
-    print('Да')
-elif(0 < num < 6):
-    print('Нет')
-else:
-    print('Такого дня недели не существует.')
+# if (num == 6 or num == 7):
+#     print('Да')
+# elif(0 < num < 6):
+#     print('Нет')
+# else:
+#     print('Такого дня недели не существует.')
 
 
 # Задача 2. Напишите программу для проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z 
@@ -28,8 +28,7 @@ else:
 # for x in 0,1:
 #     for y in 0,1:
 #         for z in 0,1:
-#             result = not (x or y or z) == (not x and not y and not z)
-#             if result == True:
+#             if not (x or y or z) == (not x and not y and not z):
 #                 print(f'{x,y,z} Утверждение истинно')
 #             else:
 #                 print(f'{x,y,z} Утверждение ложно')
